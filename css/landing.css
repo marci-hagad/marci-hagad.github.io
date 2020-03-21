@@ -1,3 +1,6 @@
+	html .page{
+		overflow:visible;
+		}
 	body {
 		background-image: url(../css/ren-ran-bteX_BmI_nY-unsplashrotate.jpg);
 		background-size: cover;
