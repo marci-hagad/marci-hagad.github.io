@@ -1,14 +1,12 @@
-	html .page{
-		overflow:auto;
-		}
 	body {
-		background-image: url(../css/ren-ran-bteX_BmI_nY-unsplashrotate.jpg);
+		background-image: url(../css/cover.png);
 		background-size: cover;
 		background-repeat: no-repeat;
 		font-family: Helvetica, Tahoma;
 		}
 
 	.hello {
+		padding: 5px;
 		/*brings the div to the center of the screen horizontally and vertically*/
 		position: fixed;
 		top: 50%;
@@ -29,11 +27,11 @@
 		text-align: center;
 		/*text-decoration: none;
 		display: inline-block;*/
-		transition: all 1s;
 		}
 
-	h1:hover{
-		transform: scale(1.1);
+	a:hover {
+		color: white;
+		border: 1px red solid;
 		}
 
 	a:link {
@@ -46,3 +44,19 @@
 		color:#690502; /*Maroon*/				
 		}
 
+	@media (min-width: 600px){
+  	    .hello{
+  	    	color: black;
+  	    }
+  	    h1{
+  	    	font-size: 100%;
+  	    }
+
+  	}
+
+	@media (min-width: 1000px){
+  	    .hello{
+  	    	background-color: rgba(255,255,255,.3);
+  	    	color: black;
+  	    }
+  	}
