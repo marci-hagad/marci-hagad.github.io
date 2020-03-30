@@ -6,7 +6,7 @@ html, body{
 	line-height: 25px;
 }
 
-h1{
+h1, h2{
     color:#690502; /*Maroon*/
     text-align: center;	
 }

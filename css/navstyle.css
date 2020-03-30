@@ -66,12 +66,12 @@ a.active,a:hover{
     font-size: 15px;
   }
 
-  img{
+  /*img{
     width: 50%;
     height:50%;
-  }
+  }*/
    
-   #this{
+  #this{
     width: 50%;
     height:50%;
     }
@@ -106,7 +106,7 @@ a.active,a:hover{
     left: 0;
   }
 
-  #this{
+  #this {
     width: 50%;
     height:50%;
     }
